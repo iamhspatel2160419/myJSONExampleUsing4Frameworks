@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15353F3F594739A7B6F6A92E /* Pods_myJSONExampleUsing4Frameworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B11ABF48237745620E7723 /* Pods_myJSONExampleUsing4Frameworks.framework */; };
+		E0452598203E7DFD00388D8C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0452597203E7DFD00388D8C /* Constants.swift */; };
+		E045259A203E83C600388D8C /* ActorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0452599203E83C600388D8C /* ActorCell.swift */; };
+		E045259C203E86A100388D8C /* ActorApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045259B203E86A100388D8C /* ActorApiResponse.swift */; };
+		E045259E203E8ABB00388D8C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045259D203E8ABB00388D8C /* APIManager.swift */; };
+		E04525A2203EB13400388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-21 at 23.47.06.png in Resources */ = {isa = PBXBuildFile; fileRef = E045259F203EB13100388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-21 at 23.47.06.png */; };
+		E04525A3203EB13400388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.23.png in Resources */ = {isa = PBXBuildFile; fileRef = E04525A0203EB13300388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.23.png */; };
+		E04525A4203EB13400388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.15.png in Resources */ = {isa = PBXBuildFile; fileRef = E04525A1203EB13300388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.15.png */; };
 		E0F99052203E778700B6DD94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F99051203E778700B6DD94 /* AppDelegate.swift */; };
 		E0F99054203E778700B6DD94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F99053203E778700B6DD94 /* ViewController.swift */; };
 		E0F99057203E778700B6DD94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F99055203E778700B6DD94 /* Main.storyboard */; };
@@ -15,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7B11ABF48237745620E7723 /* Pods_myJSONExampleUsing4Frameworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myJSONExampleUsing4Frameworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B937094C57E9E6F6D66DE384 /* Pods-myJSONExampleUsing4Frameworks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myJSONExampleUsing4Frameworks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myJSONExampleUsing4Frameworks/Pods-myJSONExampleUsing4Frameworks.debug.xcconfig"; sourceTree = "<group>"; };
+		E0452597203E7DFD00388D8C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E0452599203E83C600388D8C /* ActorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorCell.swift; sourceTree = "<group>"; };
+		E045259B203E86A100388D8C /* ActorApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorApiResponse.swift; sourceTree = "<group>"; };
+		E045259D203E8ABB00388D8C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E045259F203EB13100388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-21 at 23.47.06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-02-21 at 23.47.06.png"; sourceTree = "<group>"; };
+		E04525A0203EB13300388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.23.png"; sourceTree = "<group>"; };
+		E04525A1203EB13300388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.15.png"; sourceTree = "<group>"; };
 		E0F9904E203E778700B6DD94 /* myJSONExampleUsing4Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myJSONExampleUsing4Frameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F99051203E778700B6DD94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0F99053203E778700B6DD94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,7 @@
 		E0F99058203E778700B6DD94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0F9905B203E778700B6DD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0F9905D203E778700B6DD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA451710D0C0BA3C411A2FC6 /* Pods-myJSONExampleUsing4Frameworks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myJSONExampleUsing4Frameworks.release.xcconfig"; path = "Pods/Target Support Files/Pods-myJSONExampleUsing4Frameworks/Pods-myJSONExampleUsing4Frameworks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15353F3F594739A7B6F6A92E /* Pods_myJSONExampleUsing4Frameworks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C2819B7AFB390DE7C6F2E76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7B11ABF48237745620E7723 /* Pods_myJSONExampleUsing4Frameworks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1D1063B5EBB8F0472FA3FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B937094C57E9E6F6D66DE384 /* Pods-myJSONExampleUsing4Frameworks.debug.xcconfig */,
+				EA451710D0C0BA3C411A2FC6 /* Pods-myJSONExampleUsing4Frameworks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E04525A5203EB15000388D8C /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				E04525A0203EB13300388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.23.png */,
+				E045259F203EB13100388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-21 at 23.47.06.png */,
+				E04525A1203EB13300388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.15.png */,
+			);
+			path = ScreenShots;
+			sourceTree = "<group>";
+		};
 		E0F99045203E778700B6DD94 = {
 			isa = PBXGroup;
 			children = (
 				E0F99050203E778700B6DD94 /* myJSONExampleUsing4Frameworks */,
 				E0F9904F203E778700B6DD94 /* Products */,
+				BE1D1063B5EBB8F0472FA3FD /* Pods */,
+				0C2819B7AFB390DE7C6F2E76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +102,17 @@
 		E0F99050203E778700B6DD94 /* myJSONExampleUsing4Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E04525A5203EB15000388D8C /* ScreenShots */,
 				E0F99051203E778700B6DD94 /* AppDelegate.swift */,
 				E0F99053203E778700B6DD94 /* ViewController.swift */,
 				E0F99055203E778700B6DD94 /* Main.storyboard */,
 				E0F99058203E778700B6DD94 /* Assets.xcassets */,
 				E0F9905A203E778700B6DD94 /* LaunchScreen.storyboard */,
 				E0F9905D203E778700B6DD94 /* Info.plist */,
+				E0452597203E7DFD00388D8C /* Constants.swift */,
+				E0452599203E83C600388D8C /* ActorCell.swift */,
+				E045259B203E86A100388D8C /* ActorApiResponse.swift */,
+				E045259D203E8ABB00388D8C /* APIManager.swift */,
 			);
 			path = myJSONExampleUsing4Frameworks;
 			sourceTree = "<group>";
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0F99060203E778700B6DD94 /* Build configuration list for PBXNativeTarget "myJSONExampleUsing4Frameworks" */;
 			buildPhases = (
+				2C25012AA195CD3062CE757A /* [CP] Check Pods Manifest.lock */,
 				E0F9904A203E778700B6DD94 /* Sources */,
 				E0F9904B203E778700B6DD94 /* Frameworks */,
 				E0F9904C203E778700B6DD94 /* Resources */,
+				97C64E1D6BE3CBF156782A8A /* [CP] Embed Pods Frameworks */,
+				033D104D92E8479EF978A9EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +180,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F9905C203E778700B6DD94 /* LaunchScreen.storyboard in Resources */,
+				E04525A4203EB13400388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.15.png in Resources */,
 				E0F99059203E778700B6DD94 /* Assets.xcassets in Resources */,
+				E04525A2203EB13400388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-21 at 23.47.06.png in Resources */,
 				E0F99057203E778700B6DD94 /* Main.storyboard in Resources */,
+				E04525A3203EB13400388D8C /* Simulator Screen Shot - iPhone 6 - 2018-02-22 at 00.02.23.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033D104D92E8479EF978A9EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myJSONExampleUsing4Frameworks/Pods-myJSONExampleUsing4Frameworks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C25012AA195CD3062CE757A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myJSONExampleUsing4Frameworks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C64E1D6BE3CBF156782A8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myJSONExampleUsing4Frameworks/Pods-myJSONExampleUsing4Frameworks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myJSONExampleUsing4Frameworks/Pods-myJSONExampleUsing4Frameworks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0F9904A203E778700B6DD94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E045259E203E8ABB00388D8C /* APIManager.swift in Sources */,
 				E0F99054203E778700B6DD94 /* ViewController.swift in Sources */,
+				E045259C203E86A100388D8C /* ActorApiResponse.swift in Sources */,
 				E0F99052203E778700B6DD94 /* AppDelegate.swift in Sources */,
+				E0452598203E7DFD00388D8C /* Constants.swift in Sources */,
+				E045259A203E83C600388D8C /* ActorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +395,7 @@
 		};
 		E0F99061203E778700B6DD94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B937094C57E9E6F6D66DE384 /* Pods-myJSONExampleUsing4Frameworks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +410,7 @@
 		};
 		E0F99062203E778700B6DD94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA451710D0C0BA3C411A2FC6 /* Pods-myJSONExampleUsing4Frameworks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
